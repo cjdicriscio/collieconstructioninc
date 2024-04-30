@@ -1,25 +1,8 @@
 import House1 from "../images/house1.jpg"
 import House2 from "../images/house2.JPG"
 import House3 from "../images/house3.JPG"
-import React, { useState, useEffect } from 'react';
 
 function Home() {
-    const [isVisible, setIsVisible] = useState(false);
-
-  const toggleVisibility = () => {
-    const elem = document.getElementById('scrollDiv');
-    const rect = elem.getBoundingClientRect();
-    setIsVisible(rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight));
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', toggleVisibility);
-    
-    return () => {
-      window.removeEventListener('scroll', toggleVisibility);
-    };
-  }, []);
-  
   return(
     <div className=" text-white">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-5 text-lg">
