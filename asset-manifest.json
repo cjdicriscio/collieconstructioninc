@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/collieconstructioninc/static/css/main.b03a165f.css",
+    "main.js": "/collieconstructioninc/static/js/main.7f7b5817.js",
+    "static/media/house4.JPG": "/collieconstructioninc/static/media/house4.1a5a74bbebbd8a529602.JPG",
+    "static/media/house2.JPG": "/collieconstructioninc/static/media/house2.56f3972000b62ccf2a01.JPG",
+    "static/media/house3.JPG": "/collieconstructioninc/static/media/house3.88e2bbb7170a34168be7.JPG",
+    "static/media/room.JPG": "/collieconstructioninc/static/media/room.634a62dca6ffde51c235.JPG",
+    "static/media/porch.JPG": "/collieconstructioninc/static/media/porch.05bd91d52f7c4dc820fe.JPG",
+    "static/media/kimber.jpg": "/collieconstructioninc/static/media/kimber.cfacf132c2fd44be03a8.jpg",
+    "static/media/brad.JPG": "/collieconstructioninc/static/media/brad.a552b6cd5ddb45950f35.JPG",
+    "static/media/bart.jpg": "/collieconstructioninc/static/media/bart.98fb5b3aa40366bb86ec.jpg",
+    "static/media/house1.jpg": "/collieconstructioninc/static/media/house1.89d652d1097ef3414c07.jpg",
+    "static/media/kitchen.jpg": "/collieconstructioninc/static/media/kitchen.1dc931c4ab250b2f7f8f.jpg",
+    "static/media/map.png": "/collieconstructioninc/static/media/map.a70053e3a6ed773b06e0.png",
+    "static/media/collie.PNG": "/collieconstructioninc/static/media/collie.4bf7b7fd8f697136acaf.PNG",
+    "index.html": "/collieconstructioninc/index.html",
+    "main.b03a165f.css.map": "/collieconstructioninc/static/css/main.b03a165f.css.map",
+    "main.7f7b5817.js.map": "/collieconstructioninc/static/js/main.7f7b5817.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b03a165f.css",
+    "static/js/main.7f7b5817.js"
+  ]
+}
