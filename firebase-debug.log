@@ -1,0 +1,58 @@
+[debug] [2024-04-30T17:52:53.898Z] ----------------------------------------------------------------------
+[debug] [2024-04-30T17:52:53.900Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cjdic_g2xgyk3\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-30T17:52:53.900Z] CLI Version:   13.7.5
+[debug] [2024-04-30T17:52:53.900Z] Platform:      win32
+[debug] [2024-04-30T17:52:53.901Z] Node Version:  v18.16.0
+[debug] [2024-04-30T17:52:53.901Z] Time:          Tue Apr 30 2024 13:52:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-04-30T17:52:53.901Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-30T17:52:53.908Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-30T17:52:53.908Z] > authorizing via signed-in user (cjdicriscio@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\cjdic_g2xgyk3\website\collieconstructioninc
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-04-30T17:53:32.182Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-04-30T17:53:32.183Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"collieconstr","name":"collieconstr"}
+[debug] [2024-04-30T17:53:32.679Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-04-30T17:53:32.679Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.5252611545556179400"}
+[debug] [2024-04-30T17:53:32.680Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 [none]
+[debug] [2024-04-30T17:53:33.118Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 200
+[debug] [2024-04-30T17:53:33.118Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 {"name":"operations/cp.5252611545556179400"}
+[debug] [2024-04-30T17:53:33.620Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-30T17:53:33.621Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 [none]
+[debug] [2024-04-30T17:53:34.058Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 200
+[debug] [2024-04-30T17:53:34.058Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 {"name":"operations/cp.5252611545556179400"}
+[debug] [2024-04-30T17:53:35.059Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-30T17:53:35.060Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 [none]
+[debug] [2024-04-30T17:53:35.487Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 200
+[debug] [2024-04-30T17:53:35.487Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 {"name":"operations/cp.5252611545556179400","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-04-30T17:53:37.488Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-30T17:53:37.489Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 [none]
+[debug] [2024-04-30T17:53:37.938Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 200
+[debug] [2024-04-30T17:53:37.938Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5252611545556179400 {"name":"operations/cp.5252611545556179400","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"520910340857","projectId":"collieconstr","lifecycleState":"ACTIVE","name":"collieconstr","createTime":"2024-04-30T17:53:34.735555Z"}}
+[debug] [2024-04-30T17:53:37.951Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/collieconstr:addFirebase [none]
+[debug] [2024-04-30T17:53:38.790Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/collieconstr:addFirebase 403
+[debug] [2024-04-30T17:53:38.791Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/collieconstr:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-30T17:53:38.791Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-30T17:53:38.962Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\cjdic_g2xgyk3\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\cjdic_g2xgyk3\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
