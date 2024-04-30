@@ -11,7 +11,7 @@ function Home() {
             </div>
             <div className="md:col-span-2 m-10 grid items-center">
                 <p className="border-l-8 p-4 border-amber-400">
-                    Leading the Pennsylvania building industry for over <b>25 years </b>
+                    Leading the Pennsylvania building industry for over <b>30 years </b>
                 </p>
                 <p className="border-l-8 p-4 border-amber-600">Full service general contracting without the hassle and intrusion</p>
                 <p className="border-l-8 p-4 border-amber-800">Saving customers <b>time</b> and <b>money</b></p>

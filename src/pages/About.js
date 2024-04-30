@@ -6,7 +6,7 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-6 gap-5 text-lg">
             <div className="border-t-4 md:col-span-6"></div>
             <h1 className="border-l-8 border-amber-900 p-4 m-12 text-xl md:col-span-6 flex items-center">
-                Collie has been proudly serving people since 1997. It's what we do. <br></br> 
+                Collie has been proudly serving people since 1993. It's what we do. <br></br> 
                 Hundreds of jobs. Hundreds of satisfied customers. Decades of experience.
             </h1>
             <p className="m-20 md:col-span-6 flex items-center justify-center">
