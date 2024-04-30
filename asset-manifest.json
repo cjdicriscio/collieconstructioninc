@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/collieconstructioninc/static/css/main.b03a165f.css",
-    "main.js": "/collieconstructioninc/static/js/main.cb48b984.js",
+    "main.css": "/collieconstructioninc/static/css/main.68c2392b.css",
+    "main.js": "/collieconstructioninc/static/js/main.138634cc.js",
     "static/media/house4.JPG": "/collieconstructioninc/static/media/house4.1a5a74bbebbd8a529602.JPG",
     "static/media/house2.JPG": "/collieconstructioninc/static/media/house2.56f3972000b62ccf2a01.JPG",
     "static/media/house3.JPG": "/collieconstructioninc/static/media/house3.88e2bbb7170a34168be7.JPG",
@@ -15,11 +15,11 @@
     "static/media/map.png": "/collieconstructioninc/static/media/map.a70053e3a6ed773b06e0.png",
     "static/media/collie.PNG": "/collieconstructioninc/static/media/collie.4bf7b7fd8f697136acaf.PNG",
     "index.html": "/collieconstructioninc/index.html",
-    "main.b03a165f.css.map": "/collieconstructioninc/static/css/main.b03a165f.css.map",
-    "main.cb48b984.js.map": "/collieconstructioninc/static/js/main.cb48b984.js.map"
+    "main.68c2392b.css.map": "/collieconstructioninc/static/css/main.68c2392b.css.map",
+    "main.138634cc.js.map": "/collieconstructioninc/static/js/main.138634cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b03a165f.css",
-    "static/js/main.cb48b984.js"
+    "static/css/main.68c2392b.css",
+    "static/js/main.138634cc.js"
   ]
 }
