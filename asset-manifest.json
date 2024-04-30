@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/collieconstructioninc/static/css/main.b03a165f.css",
-    "main.js": "/collieconstructioninc/static/js/main.7f7b5817.js",
+    "main.js": "/collieconstructioninc/static/js/main.13eb94e2.js",
     "static/media/house4.JPG": "/collieconstructioninc/static/media/house4.1a5a74bbebbd8a529602.JPG",
     "static/media/house2.JPG": "/collieconstructioninc/static/media/house2.56f3972000b62ccf2a01.JPG",
     "static/media/house3.JPG": "/collieconstructioninc/static/media/house3.88e2bbb7170a34168be7.JPG",
@@ -16,10 +16,10 @@
     "static/media/collie.PNG": "/collieconstructioninc/static/media/collie.4bf7b7fd8f697136acaf.PNG",
     "index.html": "/collieconstructioninc/index.html",
     "main.b03a165f.css.map": "/collieconstructioninc/static/css/main.b03a165f.css.map",
-    "main.7f7b5817.js.map": "/collieconstructioninc/static/js/main.7f7b5817.js.map"
+    "main.13eb94e2.js.map": "/collieconstructioninc/static/js/main.13eb94e2.js.map"
   },
   "entrypoints": [
     "static/css/main.b03a165f.css",
-    "static/js/main.7f7b5817.js"
+    "static/js/main.13eb94e2.js"
   ]
 }
