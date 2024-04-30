@@ -1,6 +1,6 @@
 {
-  "homepage": "https://cjdicriscio.github.io/collieconstructioninc",
-  "name": "comps",
+  "homepage": "http://cjdicriscio.github.io/collieconstructioninc",
+  "name": "collieconstructioninc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
